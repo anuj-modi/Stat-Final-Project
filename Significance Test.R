@@ -1,3 +1,4 @@
+sink("output.txt")
 responses <- read.csv("responses.csv")
 
 lm(data = responses)
